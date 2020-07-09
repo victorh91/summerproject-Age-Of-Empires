@@ -4,10 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import logo from './images.png';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 const Header = () => (
     <header>
     <Navbar className ="color-nav" collapseOnSelect expand="lg" >
-      <Navbar.Brand href="aoe.jpg">
+      <Navbar.Brand as={Link} to="/" href="aoe.jpg">
       <img
         img src={logo} 
         width="80"
@@ -19,21 +26,8 @@ const Header = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-        <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
-          </Nav.Link>
+          <Nav.Link as={Link} to="/">Main page</Nav.Link>
+          <Nav.Link as={Link} to="/library">Library</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

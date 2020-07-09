@@ -17,3 +17,8 @@
     padding: 20px;
     border-style: ridge;
 }
+.alert-success {
+position: fixed;
+width: 100%;
+top: 25;
+}
