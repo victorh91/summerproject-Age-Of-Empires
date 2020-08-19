@@ -1,4 +1,4 @@
-## Val av biblitoek
+## Val av bibliotek
 
 Valet av React som bibliotek för projektet, grundar sig främst i dess popularitet. Framförallt visar undersökningar att utvecklare som har kompetens i React, är de mest eftertraktade på arbetsmarknaden i jämförelse med Angular och Vue [1]. Därmed ser projektgruppen en potentiellt god profitering för framtida karriärer, genom att välja just React. Vidare visar även undersökningar att utvecklare verkligen uppskattar att utveckla med hjälp av biblioteket, vilket tyder på att det framgent kommer behålla dess framfart och popularitet [2]. På motsatt sida av spektrat står Angular som ett av de minst uppskattade ramverken av användarna. Statistiken gjorde att projektgruppen tidigt valde att utesluta det som ett alternativ i projektet. Dessutom tenderar Angular att användas av främst professionella användare, vilket gjorde det ännu tydligare för denna gruppen att avfärda det.
 
