@@ -1,3 +1,14 @@
+## Val av biblitoek
+
+Valet av React som bibliotek för projektet, grundar sig främst i dess popularitet. Framförallt visar undersökningar att utvecklare som har kompetens i React, är de mest eftertraktade på arbetsmarknaden i jämförelse med Angular och Vue [1]. Därmed ser projektgruppen en potentiellt god profitering för framtida karriärer, genom att välja just React. Vidare visar även undersökningar att utvecklare verkligen uppskattar att utveckla med hjälp av biblioteket, vilket tyder på att det framgent kommer behålla dess framfart och popularitet [2]. På motsatt sida av spektrat står Angular som ett av de minst uppskattade ramverken av användarna. Statistiken gjorde att projektgruppen tidigt valde att utesluta det som ett alternativ i projektet. Dessutom tenderar Angular att användas av främst professionella användare, vilket gjorde det ännu tydligare för denna gruppen att avfärda det.
+
+När Vue togs i beaktning, vägde det tungt till en stor nackdel av det faktum att Vue främst är väldigt populärt i Kina. Därmed dominerar det kinesiska språket bland diskussionsforum och övrig community för ramverket. För att undvika språkbarriärer och minska nedlagd tid på att finna rätt stöd, så avfärdades därmed också Vue i ett tidigt skede. Således var beslutet att välja React ett enkelt sådant. Inte minst med tanke på vilket starkt community som står bakom biblioteket, med dess ständigt växande popularitet. Projektgruppen kände sig trygga med att lära sig utnyttja komponenter från React. 
+
+### Referenser
+
+[1] M. Schwarzmüller, "Angular vs React vs Vue - My Thoughts", Academind.com, 2020. [Online]. Available: https://academind.com/learn/angular/angular-vs-react-vs-vue-my-thoughts/
+[2] "Stack Overflow Developer Survey 2020", Stack Overflow, 2020. [Online]. Available: https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-web-frameworks-loved2 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
